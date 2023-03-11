@@ -185,16 +185,15 @@
 
 // Task-8
 
-// let n = 10;
+// let n = 100;
 
 // nextPrime:
 // for(let i = 2; i <= n; i++){
-//     for(let j = 2; j < i; j++){
+// inner:   for(let j = 2; j < i; j++){
 //         if(i % j == 0) continue nextPrime;
 //     }
 //     console.log(i);
 // }
-
 
 // Task-9
 
@@ -203,3 +202,13 @@
 //             console.log(`result is ${i * j}`);
 //     }
 // }
+
+// Task-10
+
+// let pick = "2 3 5 7";
+// for (let i = 1; i <= 100; i += 2) {
+//    if (i != 1 && i % 2 != 0 && i % 3 != 0 && i % 5 != 0 && i % 7 != 0) {
+//       pick += ` ${i}`;
+//    }
+// }
+// console.log(pick);
