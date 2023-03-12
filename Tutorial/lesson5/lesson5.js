@@ -212,3 +212,59 @@
 //    }
 // }
 // console.log(pick);
+
+// -- Number Data Type --
+
+console.log(typeof 4444); //result is 4444, typeof is number
+console.log(10 * 10); //result is 100, typeof is number
+console.log(10 + 10); //result is 20, typeof is number
+console.log(10 - 10); //result is 0, typeof is number
+console.log(10 / 10); //result is 1, typeof is number
+console.log(10 % 5); //result is 0, typeof is number
+console.log(10 ** 2); //result is 100, typeof is number
+console.log(64 ** (1/2)); //result is 8, typeof is number
+//or
+console.log(64 ** 0,5); //result is 8, typeof is number
+
+let son = 10;
+son++
+son--
+son++
+++son
+console.log(++son);
+
+
+// -- Number Methods
+
+//-- 1 -- Number.isInteger()
+
+let son1 = 10; //true
+
+console.log(Number.isInteger(son1));
+
+let son2 = 10.56; //false
+
+console.log(Number.isInteger(son2));
+
+//-- 2 -- Number.parseInt() / parseInt()
+
+let son3 = 10.5645;
+
+console.log(Number.parseInt(son3)); //result is 10
+console.log(parseInt(son3)); //result is 10
+
+let son4 = '10';
+
+console.log(Number.parseInt(son4)); //result is 10, typeof is not string, typeof is Number.
+
+//-- 3 -- toFixed(2)
+
+let son5 = 10.4567
+
+// console.log(son5.toFixed(2)); //result is 10.46
+console.log(+son5.toFixed(2)); //result is 10,46
+console.log(typeof +son5.toFixed(2)); //typeof is Number
+
+let str = 'Hey';
+
+console.log(+str); //NaN
