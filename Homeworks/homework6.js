@@ -16,8 +16,12 @@ console.log(mathSqrt(64));
 
 // -- 3 --
 
-function mathRound(son){
-    return parseInt(son * 100)
-}
+const modules = (n) => {
+    if(n > 0 || n == 0){
+        return n;
+    }else{
+        return n - n - n;
+    }
+};
 
-console.log(mathRound(10));
+console.log(modules(-550));
