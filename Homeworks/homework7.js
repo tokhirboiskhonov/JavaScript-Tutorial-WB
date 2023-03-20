@@ -44,3 +44,8 @@
 
 // console.log(str1.replace('Web', str2));
 // console.log(str2.replace('Brain', str1));
+
+// -- 7 --
+
+// let year = 2036;
+// year % 4 == 0 ? console.log('Kabisa yili') : console.log('Kabisa yili emas');
