@@ -26,7 +26,6 @@ console.log( isEmpty(schedule) ); // false
 
 function isEmpty(obj) {
     for (let key in obj) {
-      // if the loop has started, there is a property
       return false;
     }
     return true;
@@ -49,7 +48,6 @@ for(let key in salaries){
 console.log(sum);
 
 // -- 4 --
-
 
 let menu = {
     width: 200,
