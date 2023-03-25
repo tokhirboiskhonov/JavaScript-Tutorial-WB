@@ -139,3 +139,24 @@
 //     return a + b
 // }
 // console.log(sumNum(10, 50));
+
+// const getAvr = function(name, surname, age){
+//     console.log(`Name: ${name}`);
+//     console.log(`Surname: ${surname}`);
+//     console.log(`Age: ${age}`);
+// }
+
+// getAvr('Tokhir', 'Boiskhonov', 23);
+
+// const GPA = (a = 0, b = 0, c = 0, d = 0) => {
+//     let result = (a + b + c +d) / 4;
+//     return result;
+// }
+// console.log(GPA(5, 4, 3, 5)); //4.25
+
+// const getGpa = (a) => {
+//     let total = 300;
+//     let percent = 100;
+//     return Math.round((a * percent) / total)
+// }
+// console.log(getGpa(256)); //85
