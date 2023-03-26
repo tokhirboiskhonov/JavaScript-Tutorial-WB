@@ -65,11 +65,11 @@
 // -- 3 --
 // ==========Object methods==========
 
-let car = {
-    name: 'BMW',
-    year: 2023,
-    engine: 6.5,
-}
+// let car = {
+//     name: 'BMW',
+//     year: 2023,
+//     engine: 6.5,
+// }
 // console.log(car);
 
 // car.engine = 7.7; //updated the data.
@@ -101,3 +101,24 @@ let car = {
 // console.log(car.name);
 // console.log(car.color);
 // console.log(car.year);
+
+// ==========Object tricky==========
+
+// let obj1 = {
+//     name: "WebBrain IT Academy",
+//     founder: "Sardor Mukhtorov",
+//     founded: 2020,
+// }
+
+// // Object.freeze(obj1);
+// // Object.seal(obj1)
+
+// obj1.name = "Najot Ta'lim";
+// obj1.status = "Great";
+// delete obj1.founder;
+
+// console.log(obj1);
+
+// let key = prompt("Type something", "");
+
+// console.log(obj1[key]);
