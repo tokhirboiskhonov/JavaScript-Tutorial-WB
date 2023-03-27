@@ -147,3 +147,43 @@
 // console.log(fullname);
 // console.log(kasb);
 // console.log(age);
+
+// -------------------- Object Advanced --------------------
+
+// let obj = {
+//     name: 'WebBrain',
+//     age: 23,
+//     child: {
+//         name: 'Eshmat',
+//         age: 11,
+//         child: {
+//             name: 'Toshmat',
+//             age: 33,
+//             child: {
+//                 name: 'Anvar',
+//                 age: 50,
+//                 child: {
+//                     name: 'Momin',
+//                     age: 22,
+//                     child: {
+//                         name: 'Sardor',
+//                         age: 25,
+//                         child: {
+//                             name: 'Tohir',
+//                             age: 23,
+//                         }
+//                     }
+//                 }
+//             }
+//         }
+//     }
+// };
+
+// let sum = 0;
+
+// while(obj){
+//     sum += obj.age;
+//     obj = obj.child
+// }
+
+// console.log(sum);

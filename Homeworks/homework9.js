@@ -34,10 +34,9 @@
 
 // for(key in obj){
 //     if(typeof obj[key] === 'boolean') console.log(`${key}: ${obj[key]}`);
-// } 
+// }
 
 // -- 4 --
-
 
 // let person = {
 //     id: 1,
@@ -55,12 +54,11 @@
 //     }
 // }
 
-// let sum = 0;
+// let sum = 0; //78 + 48 + 20
 
-// while(true){
-//     if(person) sum += person.age;
-//     else break;
-//     person = person.child
+// while(person){
+//     sum += person.age;
+//     person = person.child;
 // }
 
 // console.log(sum); // 146
