@@ -13,7 +13,7 @@
 
 // function onSearch(text){
 //     for(let idx of arr){
-//         if(idx.name.includes(text)){
+//         if(idx.name.includes(text.toUpperCase()) || idx.name.includes(text.toLowerCase())){
 //             filteredArr.push(idx)
 //         }
 //     }
