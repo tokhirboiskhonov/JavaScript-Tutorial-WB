@@ -70,6 +70,8 @@
 // console.log(arr1.length);
 // console.log(arr2.length);
 
+// let arr = [1, 2];
+// console.log(Array.isArray(arr));
 // let arr3 = [3, 5, 1];
 // let arr4 = new Array(100, 2, 5); 
 // console.log(arr3.length);
