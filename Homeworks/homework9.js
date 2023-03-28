@@ -32,9 +32,12 @@
 //     individual: false
 // }
 
+// let obj1 = {}
+
 // for(key in obj){
-//     if(typeof obj[key] === 'boolean') console.log(`${key}: ${obj[key]}`);
+//     if(typeof obj[key] === 'boolean') obj1[key] = obj[key];
 // }
+// console.log(obj1);
 
 // -- 4 --
 
