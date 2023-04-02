@@ -217,7 +217,8 @@ let cars = [
 
 // let arrNum = [4, 10, 888, 99, 100];
 
-// let resSort = arrNum.sort((a, b) => Math.min(b) - Math.max(a))
+// let resSort = arrNum.sort((a, b) => Math.min(b) - Math.max(a))[0];
+// let resSort = arrNum.sort((a, b) => Math.min(a) - Math.max(b))[0]
 // console.log(resSort);
 // let min = arrNum.sort((a, b) => a - b)[0];
 // console.log(min);
