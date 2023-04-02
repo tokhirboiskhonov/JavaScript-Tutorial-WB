@@ -176,7 +176,7 @@ let cars = [
 // const updateCars = (data) => {
 //     let resUpdate = cars.map(value => {
 //         if(value.id === data.id){
-//             return {...value, [data.inovated]: data.values, engine: 3.5, [data.type]: data.value}
+//             return {...value, [data.inovated]: data.values, [data.type]: data.value}
 //         }else{
 //             return value
 //         }
@@ -215,9 +215,11 @@ let cars = [
 
 // ******** HomeTask ********
 
-let arrNum = [4, 10, 888, 99, 100];
+// let arrNum = [4, 10, 888, 99, 100];
 
 // let resSort = arrNum.sort((a, b) => Math.min(b) - Math.max(a))
 // console.log(resSort);
-console.log(Math.min(...arrNum)); //Min output: 4
-console.log(Math.max(...arrNum)); //Max output: 888
+// let min = arrNum.sort((a, b) => a - b)[0];
+// console.log(min);
+// console.log(Math.min(...arrNum)); //Min output: 4
+// console.log(Math.max(...arrNum)); //Max output: 888
