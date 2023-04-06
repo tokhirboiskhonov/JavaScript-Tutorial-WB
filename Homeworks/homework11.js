@@ -1,13 +1,13 @@
 //Homework#11
 
-let users = [ 
-    { id: 1, year: 1998, engine: 1, name: "Tico"},
-    { id: 2, year: 2005, engine: 1.2, name: "Matiz"},
-    { id: 3, year: 2010, engine: 1.6, name: "Gentra"},
-    { id: 4, year: 2010, engine: 1.5, name: "Cobalt"},
-    { id: 5, year: 2012, engine: 2, name: "Malibu"},
-    { id: 6, year: 2000, engine: 1.2, name: "Damas"},
-    { id: 7, year: 2018, engine: 2.4, name: "Tracker"}
+let users = [
+    { id: 1, year: 1998, engine: 1, name: "Tico" },
+    { id: 2, year: 2005, engine: 1.2, name: "Matiz" },
+    { id: 3, year: 2010, engine: 1.6, name: "Gentra" },
+    { id: 4, year: 2010, engine: 1.5, name: "Cobalt" },
+    { id: 5, year: 2012, engine: 2, name: "Malibu" },
+    { id: 6, year: 2000, engine: 1.2, name: "Damas" },
+    { id: 7, year: 2018, engine: 2.4, name: "Tracker" },
 ];
 
 //--1--
@@ -38,19 +38,19 @@ let users = [
 //--6--
 
 // let mapUsers = users.map((value) => {
-    // if(value.year < 2000){
-        // value.status = "Eski"
-        // console.log(value);
-    // }
+// if(value.year < 2000){
+// value.status = "Eski"
+// console.log(value);
+// }
 // })
 
 //--6--
 
 // let mapUsers1 = users.map((value) => {
-    // if(value.year >= 2000 && value.year <= 2010){
-        // value.status = "O'rta"
-        // console.log(value);
-    // }
+// if(value.year >= 2000 && value.year <= 2010){
+// value.status = "O'rta"
+// console.log(value);
+// }
 // })
 
 //--7--
@@ -58,7 +58,7 @@ let users = [
 // let mapUsers2 = users.map((value) => {
 //     if(value.year >= 2010 && value.year <= 2022){
 //         value.status = "Yangi"
-        // console.log(value);
+// console.log(value);
 //     }
 // })
 
