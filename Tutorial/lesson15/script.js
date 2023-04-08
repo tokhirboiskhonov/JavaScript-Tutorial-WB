@@ -115,12 +115,12 @@
 
 // -- 2 --
 
-// function sendRequest(greet) {
-//     return function (name) {
-//         return function (message) {
-//             return `${greet} ${name} ${message}`;
-//         };
-//     };
-// }
+function sendRequest(greet) {
+    return function (name) {
+        return function (message) {
+            return `${greet} ${name} ${message}`;
+        };
+    };
+}
 
-// console.log(sendRequest("Salom")("Tokhir")("Telefonga qaravoring shep!"));
+console.log(sendRequest("Salom")("Tokhir")("Telefonga qaravoring shep!"));
