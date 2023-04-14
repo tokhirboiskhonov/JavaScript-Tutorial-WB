@@ -132,3 +132,133 @@
 // map = null;
 // console.log(map);
 // console.log(obj);
+
+// let map = new Map();
+// map.set("1", "str1");
+// map.set(1, "num1");
+// map.set(true, "bool1");
+// console.log(map.get(1));
+// console.log(map.get("1"));
+// console.log(map.size);
+
+// let john = { name: "John" };
+// let ben = { name: "Ben" };
+
+// let visitsCountObj = {}; // try to use an object
+
+// visitsCountObj[ben] = 234; // try to use ben object as the key
+// visitsCountObj[john] = 123; // try to use john object as the key, ben object will get replaced
+
+// That's what got written!
+// console.log(visitsCountObj[john]); // 123
+
+// let recipeMap = new Map([
+//     ["cucumber", 500],
+//     ["tomatoes", 350],
+//     ["onion", 50],
+// ]);
+
+// for(let vegatable of recipeMap.keys()){
+//     console.log(vegatable);
+// }
+
+// for(let amount of recipeMap.values()){
+//     console.log(amount);
+// }
+
+// for(let entry of recipeMap){
+//     console.log(entry);
+// }
+
+// let obj = {
+//     name: "John",
+//     age: 30,
+// };
+// let map = new Map(Object.entries(obj));
+// console.log(map); // Map(2) { 'name' => 'John', 'age' => 30 }
+// console.log(map.get("name")); //output: John
+
+// let map = new Map();
+
+// map.set("banana", 1).set("orange", 2).set("meat", 4);
+
+// let obj = Object.fromEntries(map.entries());
+
+// console.log(map);
+// console.log(obj.banana);
+// console.log(obj.orange);
+// console.log(obj.meat);
+
+// let set = new Set();
+
+// let john = { name: "John" };
+// let pete = { name: "Pete" };
+// let mary = { name: "Mary" };
+
+// set.add(john);
+// set.add(pete);
+// set.add(mary);
+// set.add(john);
+// set.add(mary);
+// console.log(set.size);
+
+// for(let user of set){
+//     console.log(user.name);
+// }
+
+// let set = new Set(["oranges", "apples", "bananas"]);
+
+// for (let value of set) console.log(value);
+
+// the same with forEach:
+// set.forEach((value, valueAgain, set) => {
+    // console.log(value);
+    // console.log(valueAgain);
+    // console.log(set);
+// });
+
+
+// let john = { name: "John" };
+
+// let weakMap = new WeakMap();
+// weakMap.set(john, "...");
+// weakMap.set(john, "secret documents");
+
+// console.log(weakMap);
+// john = null; // overwrite the reference
+
+
+// john is removed from memory!
+
+//  visitsCount.js
+// let visitsCountMap = new Map(); // map: user => visits count
+
+// // increase the visits count
+// function countUser(user) {
+//   let count = visitsCountMap.get(user) || 0;
+//   visitsCountMap.set(user, count + 1);
+// }
+
+// console.log(countUser(john));
+
+
+// let visitedSet = new WeakSet();
+
+// let john = { name: "John" };
+// let pete = { name: "Pete" };
+// let mary = { name: "Mary" };
+
+// visitedSet.add(john); // John visited us
+// visitedSet.add(pete); // Then Pete
+// visitedSet.add(john); // John again
+
+// visitedSet has 2 users now
+
+// check if John visited?
+// console.log(visitedSet.has(john)); // true
+
+// check if Mary visited?
+// console.log(visitedSet.has(mary)); // false
+
+// john = null;
+// console.log(visitedSet);
